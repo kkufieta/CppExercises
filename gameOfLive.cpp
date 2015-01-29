@@ -1,3 +1,5 @@
+// Game of Life
+// Run in a large terminal or adjust the size below.
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -39,10 +41,6 @@ int main() {
     }
     
     return 0;
-}
-
-void death(int livingNeighbors) {
-    
 }
 
 void nextGeneration(char world[][WIDTH]) {
