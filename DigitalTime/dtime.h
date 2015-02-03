@@ -2,6 +2,9 @@
 // Values of this type are times of day. The values are input and output in
 // 24-hour notation, e.g. 9:30 and 14:45.
 
+#ifndef DTIME_H
+#define DTIME_H
+
 #include <iostream>
 using namespace std;
 
@@ -36,3 +39,5 @@ class DigitalTime {
   // Precondition: c is one of the digits '0' through '9'.
   // Returns the integer for the digit; for example, digitToInt('3') returns 3.
 };
+
+#endif // DTIME_H
