@@ -1,6 +1,9 @@
 #include <iostream>
-using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
 #include "dtime.h"
+using namespace DTimeNS;
 
 int main() {
   DigitalTime time1, time2;
