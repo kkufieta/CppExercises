@@ -21,7 +21,7 @@ class SalaryEmployee : public Employee {
   double getMonthlySalary() const;
   void setMonthlySalary(double newSalary);
   void printPayroll() const;
- private:
+ protected:
   // string name;
   // string ssn; // Social security number
   double monthlySalary;
